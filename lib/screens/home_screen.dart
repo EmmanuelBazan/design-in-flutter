@@ -1,4 +1,5 @@
 import 'package:design_in_flutter/widgets/background.dart';
+import 'package:design_in_flutter/widgets/card_table.dart';
 import 'package:design_in_flutter/widgets/custom_navigation.dart';
 import 'package:design_in_flutter/widgets/page_title.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +29,7 @@ class _HomeBody extends StatelessWidget {
       child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
-          children: const [PageTitle()]),
+          children: const [PageTitle(), CardTable()]),
     );
   }
 }
